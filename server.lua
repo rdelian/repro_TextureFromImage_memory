@@ -7,7 +7,7 @@ end
 Citizen.CreateThread(function()
     local files = scandir(RESOURCE_PATH .. '/images')
     
-    -- printFiles(files)
+    printFiles(files)
 
     TriggerClientEvent(RESOURCE_NAME..':ReceiveImages', -1, files)
 end)

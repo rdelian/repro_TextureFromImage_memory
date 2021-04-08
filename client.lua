@@ -6,6 +6,6 @@ AddEventHandler(RESOURCE_NAME..':ReceiveImages', function(data)
 
 	-- Test textures
 	Notify("Text, yay", GetGameTimer(), "002-youtube")
-	Notify("Text, yay", GetGameTimer(), "055-lastfm")
+	Notify("Text, yay X", GetGameTimer(), "055-lastfm")
 end)
 
